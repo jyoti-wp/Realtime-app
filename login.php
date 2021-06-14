@@ -18,11 +18,11 @@
                 <div class="error-text">This is an Error Message!</div>
                 <div class="field input">
                     <label>Email</label>
-                    <input type="text" placeholder="Enter your email!">
+                    <input type="text" placeholder="Enter your email!" required>
                 </div>
                 <div class="field input">
                     <label>Password</label>
-                    <input type="text" placeholder="Enter your password">
+                    <input type="text" placeholder="Enter your password" required>
                     <i class="fa fa-eye"></i>
                 </div>
 

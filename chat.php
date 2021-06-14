@@ -84,6 +84,7 @@
             </form>
         </section>
     </div>
+    <script src="javascript/show-hide.js"></script>
 </body>
 
 </html>

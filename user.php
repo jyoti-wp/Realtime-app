@@ -92,6 +92,7 @@
             </div>
         </section>
     </div>
+    <script src="javascript/user.js"></script>
 </body>
 
 </html>
