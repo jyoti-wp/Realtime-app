@@ -28,12 +28,59 @@
                     </div>
                 </div>
                 <div class="chat incoming">
-                    <!-- <img src="images/image.jpeg" alt=""> -->
+                    <img src="images/image.jpeg" alt="">
+                    <div class="details">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, non ea odit repellendus quasi.</p>
+                    </div>
+                </div>
+                <div class="chat outgoing">
+                    <div class="details">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, non ea odit repellendus quasi.</p>
+                    </div>
+                </div>
+                <div class="chat incoming">
+                    <img src="images/image.jpeg" alt="">
+                    <div class="details">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, non ea odit repellendus quasi.</p>
+                    </div>
+                </div>
+                <div class="chat outgoing">
+                    <div class="details">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, non ea odit repellendus quasi.</p>
+                    </div>
+                </div>
+                <div class="chat incoming">
+                    <img src="images/image.jpeg" alt="">
+                    <div class="details">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, non ea odit repellendus quasi.</p>
+                    </div>
+                </div>
+                <div class="chat outgoing">
+                    <div class="details">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, non ea odit repellendus quasi.</p>
+                    </div>
+                </div>
+                <div class="chat incoming">
+                    <img src="images/image.jpeg" alt="">
+                    <div class="details">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, non ea odit repellendus quasi.</p>
+                    </div>
+                </div>
+                <div class="chat outgoing">
+                    <div class="details">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, non ea odit repellendus quasi.</p>
+                    </div>
+                </div>
+                <div class="chat incoming">
+                    <img src="images/image.jpeg" alt="">
                     <div class="details">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, non ea odit repellendus quasi.</p>
                     </div>
                 </div>
             </div>
+            <form action="#" class="typing-area">
+                <input type="text" placeholder="Type a message here...">
+            </form>
         </section>
     </div>
 </body>
