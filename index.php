@@ -32,7 +32,7 @@
                 </div>
                 <div class="field input">
                     <label>Password</label>
-                    <input type="text" placeholder="Enter your password">
+                    <input type="password" placeholder="Enter your password">
                     <i class="fa fa-eye"></i>
                 </div>
                 <div class="field image">
@@ -46,6 +46,7 @@
             <div class="link">Already Signed up? <a href="login.php">Login now</a></div>
         </section>
     </div>
+    <script src="javascript/show-hide.js"></script>
 </body>
 
 </html>

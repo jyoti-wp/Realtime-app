@@ -33,6 +33,7 @@
             <div class="link">Not yet Signed up? <a href="index.php ">Sing up now!</a></div>
         </section>
     </div>
+    <script src="javascript/show-hide.js"></script>
 </body>
 
 </html>
