@@ -19,25 +19,25 @@
                 <div class="name-details">
                     <div class="field input">
                         <label>First Name</label>
-                        <input type="text" placeholder="First Name" required>
+                        <input type="text" name="fname" placeholder="First Name" required>
                     </div>
                     <div class="field input">
-                        <label>First Name</label>
-                        <input type="text" placeholder="Last Name" required>
+                        <label>Last Name</label>
+                        <input type="text" name="lname" placeholder="Last Name" required>
                     </div>
                 </div>
                 <div class="field input">
                     <label>Email</label>
-                    <input type="text" placeholder="Enter your email!" required>
+                    <input type="text" name="email" placeholder="Enter your email!" required>
                 </div>
                 <div class="field input">
                     <label>Password</label>
-                    <input type="password" placeholder="Enter your password" required>
+                    <input type="current-password" name="password" placeholder="Enter your password" required>
                     <i class="fa fa-eye"></i>
                 </div>
                 <div class="field image">
                     <label>Select Image</label>
-                    <input type="file" placeholder="Select an image">
+                    <input type="file" name="image" placeholder="Select an image" require>
                 </div>
                 <div class="field button">
                     <input type="submit" placeholder="Submit" value="Continue to chat">

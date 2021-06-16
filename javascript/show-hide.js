@@ -1,4 +1,4 @@
-const passwordField = document.querySelector(".form input[type='password']");
+const passwordField = document.querySelector(".form input[type='current-password']");
 toggleBtn = document.querySelector(".form .field i");
 
 toggleBtn.onclick = () => {
