@@ -32,7 +32,14 @@ if(!empty($fname) && !empty($lname) && !empty($email) && !empty($password)) {
                     $random_id = ran(time(), 10000000);
 
                     // inserting user data inside of a table
-                    $sql2 = mysqli_query($mysqli, INSERT INTO users (`unique_id`, `fname`, `lname`, `email`, `password`, `img`, `status`);
+                    $sql2 = mysqli_query($mysqli, "INSERT INTO users (`unique_id`, `fname`, `lname`, `email`, `password`, `img`, `status`) VALUES({$random_id}, '{$fname}', '{$lname}' , '{$email}', '{$password}', '{$new_img_name}')"); 
+                    if($sql2) {
+                        $sql3 = mysqli_query($mysqli, "SELECT * FROM USERS WHERE EMAIL = `{$email}`");
+                        if($mysqli_num_rows($sql3) > 0) {
+                            $row = mysqli_fetch_assoc($sql3);
+                            $_SESSION['unique_id'] = $row['unique_id']; // using this secction to add user id in different  php files
+                        }
+                    }
                 }
                 
             } else {

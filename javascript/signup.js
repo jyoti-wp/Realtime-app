@@ -1,5 +1,6 @@
-const form = document.querySelector(".signup form"),
-    continueBtn = form.querySelector(".button input");
+const form = document.querySelector(".signup form");
+continueBtn = form.querySelector(".button input");
+errorText = from.querySelector(".error-txt");
 
 form.onsubmit = (e) => {
     e.preventDefault();
@@ -8,12 +9,17 @@ continueBtn.onclick = () => {
     // Ajax section 
     let xhr = new XMLHttpRequest();
     xhr.open("POST",
-        "signup.php", true);
+        "/signup.php", true);
     xhr.onload = () => {
         if (xhr.readyState === XMLHttpRequest.DONE) {
             if (xhr.status === 200) {
                 let data = xhr.response;
-                console.log(data);
+                if (data == "success") {
+
+                } else {
+                    errorText.textContent = data;
+                    errorText.style.display = "block";
+                }
             }
         }
     }
