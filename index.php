@@ -1,3 +1,10 @@
+<?php
+session_start();
+if (isset($_SESSION['unique_id'])) {
+    header("location: user.php");
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -14,8 +21,8 @@
     <div class="wrapper">
         <section class="form signup">
             <header>Realtime Chat App</header>
-            <form action="#" enctype="multipart/form-data">
-                <div class="error-txt"></div>
+            <form action="#" method="POST" enctype="multipart/form-data" autocomplete="off">
+                <div class="error-text"></div>
                 <div class="name-details">
                     <div class="field input">
                         <label>First Name</label>
