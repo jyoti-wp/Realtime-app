@@ -14,7 +14,7 @@
     <div class="wrapper">
         <section class="form signup">
             <header>Realtime Chat App</header>
-            <form action="#">
+            <form action="#" enctype="multipart/form-data">
                 <div class="error-text">This is an Error Message!</div>
                 <div class="name-details">
                     <div class="field input">
