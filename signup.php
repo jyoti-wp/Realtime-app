@@ -5,6 +5,7 @@ $fname = mysqli_real_escape_string($mysqli, $_POST['fname']);
 $lname = mysqli_real_escape_string($mysqli, $_POST['lname']);
 $email = mysqli_real_escape_string($mysqli, $_POST['email']);
 $password = mysqli_real_escape_string($mysqli, $_POST['password']);
+
 if (!empty($fname) && !empty($lname) && !empty($email) && !empty($password)) {
     if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
         $sql = mysqli_query($mysqli, "SELECT * FROM users WHERE email = '{$email}'");
