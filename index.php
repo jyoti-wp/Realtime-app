@@ -50,7 +50,7 @@ if (isset($_SESSION['unique_id'])) {
                     <input type="submit" placeholder="Submit" value="Continue to chat">
                 </div>
             </form>
-            <div class="link">Already Signed up? <a href="login.php">Login now</a></div>
+            <div class="link">Already Signed up? <a href="#">Login now</a></div>
         </section>
     </div>
     <script src="javascript/show-hide.js"></script>
